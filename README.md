@@ -22,13 +22,13 @@ Due to chip's secure function, once if it has configured, you can't change confi
 
 # Usage
 
-"git clone --recursive <this pages URL>" on your target directory and make -j4.  
+"git clone --recursive https://github.com/kmwebnet/ECC608-hkdf-create" on your target directory and make -j4.  
 
 # Run this project
 
-execute "./hkdfcreate <target filename>" on termial.  
+execute "./hkdfcreate (target filename)" on termial.  
 random 32byte key which uses with cryptsetup will emit to stdout.   
-signed HKDF master key will create on same directory with <target filename>.  
+signed HKDF master key will create on same directory with target filename.  
 
 # License
 
